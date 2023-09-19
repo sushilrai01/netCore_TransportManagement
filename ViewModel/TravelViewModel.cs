@@ -12,11 +12,11 @@ namespace netCoreTransportMgmt.ViewModel
         public string? Text { get; set; }
     }
 
-
+    #nullable disable
     public class RouteModel
     {
         public int RouteId { get; set; }
-        public string? Origin { get; set; }
+        public string Origin { get; set; }
         public string Destination { get; set; }
 
         [Display(Name = "Travel Cost")]
@@ -49,7 +49,7 @@ namespace netCoreTransportMgmt.ViewModel
         public string Name { get; set; }
     }
 
-
+    #nullable disable
     public class TransportRouteModel
     {
         public int TransportId { get; set; }
@@ -71,7 +71,7 @@ namespace netCoreTransportMgmt.ViewModel
         public string DriverName { get; set; }
 
         public string Origin { get; set; }
-        public string? Destination { get; set; }
+        public string Destination { get; set; }
 
         [Display(Name = "Travel Cost")]
         public int Cost { get; set; }
