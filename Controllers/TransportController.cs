@@ -62,5 +62,4 @@ namespace netCoreTransportMgmt.Controllers
 }
 
 //---------------Scaffolding entity framework core-----------
-//Scaffold - DbContext "Server=DESKTOP-3EKTNG4;Database=StudentDb;user=sa;password=1234;
-//TrustServerCertificate=True" Microsoft.EntityFrameworkCore.SqlServer - OutputDir Entity - force
+//Scaffold-DbContext "Server=DESKTOP-IDK5662;Database=TransportManagement;user=sa;password=1234;TrustServerCertificate=True" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Entity -force
